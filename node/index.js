@@ -18,7 +18,7 @@ connection.query(
 connection.end();
 
 app.get("/", (_, res) => {
-  let html = "<h1>Full Cycle</h1>";
+  let html = "<h1>Full Cycle Rocks!</h1>";
 
   const connection = mysql.createConnection(config);
   connection.query(`INSERT INTO people(name) values ('Victor')`);
